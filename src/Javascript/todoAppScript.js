@@ -90,6 +90,7 @@ const reset = () => {
 if (arr.length > 0) {
   if (taskData.length) {
     updateTaskContainer(); 
+
   }
 }
 

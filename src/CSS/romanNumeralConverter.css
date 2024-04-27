@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('https://media.istockphoto.com/id/1141668764/vector/illustration-about-mathematics.jpg?s=612x612&w=0&k=20&c=82AmYYr2XS6KNR33itdltWSTqC3oAh72bQbYFI6oqFM=');
+    background-size: cover;
+    background-position: center;
   }
   
   header {

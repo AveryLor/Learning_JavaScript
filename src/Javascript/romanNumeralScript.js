@@ -6,10 +6,13 @@ document.addEventListener('DOMContentLoaded', function () {
     convertButton.addEventListener('click', function () {
       const inputValue = parseInt(numberInput.value);
   
-      if (isNaN(inputValue) || inputValue < 1) {
+      if (isNaN(inputValue)) {
         outputDiv.textContent = 'Please enter a valid number';
       } else if (inputValue >= 4000) {
         outputDiv.textContent = 'Please enter a number less than or equal to 3999';
+      } else if (inputValue < 1) {
+        outputDiv.textContent = 'Please enter a number greater than or equal to 1'; 
+  
       } else {
         outputDiv.textContent = convertToRoman(inputValue);
       }
